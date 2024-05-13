@@ -29,7 +29,7 @@ app.get('/movies', async(req, res) => {
       movie_id: movie.id,
       title: movie.title,
       poster_image_url: `http://image.tmdb.org/t/p/w500/${movie.poster_path}`,
-      popularity_summary: `Popularity of ${movie.popularity} out of ${movie.vote_count} votes`,
+      popularity_summary: `Popularity score ${movie.popularity} out of ${movie.vote_count} votes`,
       popularity: movie.popularity,
       release_year: movie.release_date ? movie.release_date.substring(0, 4) : 'Unknown',
     }))
