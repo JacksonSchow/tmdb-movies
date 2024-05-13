@@ -71,4 +71,4 @@ In the future, I would like to implement a number of features, including
 
 Below is a screenshot of what the webapp looks like when functioning.
 
-![Screenshot of Movie Search App](screenshot.png)
+![Screenshot of Movie Search App](Screenshot.png)
