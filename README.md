@@ -19,21 +19,10 @@ What you need to install the software:
 
 A step-by-step series of examples that tell you how to get a development environment running.
 
-#### Setting up the Front-end
+#### Setting up the Backend
 
 1. Navigate to the `webapp` directory:
     cd webapp
-
-2. Install the dependencies:
-    npm install
-
-3. Start the development server:
-    npm run serve
-
-#### Setting up the Back-end
-
-1. Navigate to the `webservice` directory:
-    cd webservice
 
 2. Install the dependencies:
     npm install
@@ -43,6 +32,17 @@ A step-by-step series of examples that tell you how to get a development environ
 
 4. Start the backend server:
     npm start
+
+#### Setting up the Frontend
+
+1. Navigate to the `webservice` directory:
+    cd webservice
+
+2. Install the dependencies:
+    npm install
+
+3. Start the development server:
+    npm run serve
 
 5. The server runs on `http://localhost:3000` and handles requests from the front-end.
 
